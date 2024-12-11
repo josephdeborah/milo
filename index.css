@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.img{
+    transition: 200ms;
+    
+}
+.img:hover{
+    transform: translateY(-3px);
+    box-shadow:0 4px 3px black ,
+    0 9px 3px rgba(0, 0, 0, 0.342);
+}
+span:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.726);
+}
+section{
+    background-color: #f4f6ff;
+    height: 13rem;
+    padding-top: 0;
+}
+input{
+    border: 1px solid white;
+    background-color: gray;
+}
+.wrapper{
+    overflow-x: hidden !important;
+}
+.gap-4 p{
+    border-right: 1px solid rgba(220, 220, 220, 0.377);
+    padding-right: 8px;
+
+}
+#footer{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #050506;
+    height: 13rem;
+    
+}
+main{
+    padding: 0 !important;
+    margin: 0 !important;
+}
